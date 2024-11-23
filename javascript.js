@@ -68,11 +68,27 @@ const computerSelection = getComputerChoice();
 
 
 playRound(humanSelection, computerSelection);
-playRound(humanSelection, computerSelection);
-playRound(humanSelection, computerSelection);
-playRound(humanSelection, computerSelection);
-playRound(humanSelection, computerSelection);
+console.log('SCORE');
+console.log('Human:' + humanScore);
+console.log('Computer:' + computerScore);
 
+playRound(getHumanChoice(), getComputerChoice());
+console.log('SCORE');
+console.log('Human:' + humanScore);
+console.log('Computer:' + computerScore);
+
+playRound(getHumanChoice(), getComputerChoice());
+console.log('SCORE');
+console.log('Human:' + humanScore);
+console.log('Computer:' + computerScore);
+
+playRound(getHumanChoice(), getComputerChoice());
+console.log('SCORE');
+console.log('Human:' + humanScore);
+console.log('Computer:' + computerScore);
+
+playRound(getHumanChoice(), getComputerChoice());
+console.log('SCORE');
 console.log('Human:' + humanScore);
 console.log('Computer:' + computerScore);
 
